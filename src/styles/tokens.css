@@ -1,0 +1,90 @@
+/* ─────────────────────────────────────────────────────────────
+   THE REUNION ARCHIVE — Design Tokens
+   "An editorial archive of memories meets a contemporary
+    premium event experience."
+   ───────────────────────────────────────────────────────────── */
+:root {
+  /* Midnight ink — the dominant evening tone */
+  --ink-950: #080d1a;
+  --ink-900: #0d1424;
+  --ink-850: #111a2e;
+  --ink-800: #162039;
+  --ink-700: #1f2b48;
+  --ink-600: #2e3d60;
+  --ink-500: #4a5876;
+
+  /* Warm ivory paper */
+  --ivory-50: #fbf8f2;
+  --ivory-100: #f4eee2;
+  --ivory-200: #ebe3d3;
+  --ivory-300: #dccfb8;
+  --ivory-400: #c6b79c;
+
+  /* Muted antique gold — accents only */
+  --gold-200: #e6d3ac;
+  --gold-300: #d6bb88;
+  --gold-400: #c5a36c;
+  --gold-500: #b08b52;
+  --gold-600: #8e6d3c;
+
+  /* Neutrals */
+  --charcoal: #24221f;
+  --charcoal-80: #3b3833;
+  --stone-600: #645e55;
+  --stone-500: #857e73;
+  --stone-400: #a59d90;
+  --stone-300: #c4bdb1;
+
+  /* Semantic */
+  --success: #4c6b4f;
+  --success-bg: #e3eadf;
+  --warning: #a8742a;
+  --warning-bg: #f3e6cf;
+  --danger: #9d3f2d;
+  --danger-bg: #f3dfd8;
+  --info: #3c5a85;
+  --info-bg: #dfe6f0;
+
+  /* Lines */
+  --line-dark: rgba(36, 34, 31, 0.16);
+  --line-dark-strong: rgba(36, 34, 31, 0.32);
+  --line-light: rgba(244, 238, 226, 0.16);
+  --line-light-strong: rgba(244, 238, 226, 0.34);
+  --line-gold: rgba(197, 163, 108, 0.45);
+
+  /* Typography */
+  --font-display: 'Cormorant Garamond', 'Times New Roman', serif;
+  --font-body: 'Newsreader', Georgia, serif;
+  --font-ui: 'Manrope', 'Segoe UI', sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+  --fs-mega: clamp(3.4rem, 10.5vw, 11.5rem);
+  --fs-display: clamp(2.8rem, 6.6vw, 6.8rem);
+  --fs-h1: clamp(2.4rem, 5vw, 4.6rem);
+  --fs-h2: clamp(2rem, 3.6vw, 3.4rem);
+  --fs-h3: clamp(1.45rem, 2.2vw, 2rem);
+  --fs-lead: clamp(1.15rem, 1.5vw, 1.4rem);
+  --fs-body: 1.0625rem;
+  --fs-small: 0.875rem;
+  --fs-label: 0.72rem;
+
+  /* Spacing rhythm */
+  --gutter: clamp(1.25rem, 4vw, 3.5rem);
+  --section-y: clamp(5rem, 11vw, 10rem);
+  --max-w: 1440px;
+  --read-w: 62ch;
+
+  --radius-sm: 2px;
+  --radius: 4px;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+
+  --shadow-paper: 0 1px 0 rgba(255, 255, 255, 0.6) inset, 0 30px 60px -30px rgba(8, 13, 26, 0.45), 0 12px 24px -12px rgba(8, 13, 26, 0.25);
+  --shadow-soft: 0 18px 40px -24px rgba(8, 13, 26, 0.35);
+
+  --nav-h: 76px;
+
+  /* Grain texture (SVG turbulence) */
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.5 0 0 0 0 0.45 0 0 0 0 0.38 0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
